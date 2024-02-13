@@ -1,0 +1,635 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headere {
+  height: 70px;
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+
+.A1 {
+  height: 500px;
+  width: 30%;
+  float: left;
+}
+
+.A2 {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.D1 {
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+
+.body1 {
+  height: 1350px;
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+
+.A3 {
+  margin-left: 70px;
+}
+
+.D1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.D1 ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.D1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.A4 {
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+
+.A5 {
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+
+.headere1 {
+  height: 70px;
+  width: 100%;
+  float: left;
+  background-color: white;
+  
+}
+
+.A5 {
+  /* height: 100%;
+  width: 20%; */
+  margin-right: 40px;
+}
+
+.A6 {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.A7 {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.A8 {
+  height: 100%;
+  width: 60%;
+  float: left;
+}
+
+.A9 {
+  height: 50px;
+  width: 180px;
+  margin-top: 10px;
+  float: left;
+  border-radius: 10px;
+  border: none;
+  margin-left: 60px;
+  background-color: #ececec;
+}
+.A0{
+  padding-left: 50px;
+  margin-right: 15px;
+  padding-right: 1px;
+  
+}
+
+.A10 {
+  float: left;
+  height: 51px;
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  background-color: #ececec;
+
+}
+
+.A11 {
+  margin-right: 15px
+}
+
+.A12 {
+  height: 49px;
+  width: 180px;
+  margin-top: 11px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #ececec;
+}
+
+.A13 {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 12px;
+  border-radius: 10px;
+  border: none;
+  color: red;
+  background-color: white
+}
+
+.A14 {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 25px;
+  color: red;
+  background-color: white
+}
+
+.A15 {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.A16 {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 220px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ececec;
+}
+
+.A17 {
+  height: 60%;
+  width: 20%;
+}
+
+.A18 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A19 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left; */
+  color: black;
+}
+
+.A20 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A21 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A22 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A23 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left" */
+}
+
+.A24 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A25 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A26 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A27 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+
+}
+
+.A28 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A29 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A30 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A31 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left  */
+
+}
+
+.A32 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A33 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A34 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A35 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A36 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A37 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A38 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A39 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A40 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A41 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A42 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A43 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A44 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A45 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A46 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px
+}
+
+.A47 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A48 {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.A49 {
+  margin-left: 60px;
+  margin-top: -30px;
+  /* float-left */
+}
+
+.A50 {
+  height: 100%;
+  width: 95%;
+  float: left;
+  margin-left: 100px;
+}
+
+.A51 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A52 {
+  border-radius: 10% 10% 0% 0%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.A53 {
+  margin-top: 30px;
+}
+
+#h1 {
+  height: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+#i1 {
+  height: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  framer-font-family: "Inter-Medium", "Inter", sans-serif;
+
+}
+
+.r1 {
+  height: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  framer-font-family: "Inter-Medium", "Inter", sans-serif;
+
+}
+
+#d1 {
+  border-radius: 25px;
+}
+
+#d1:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+nav {
+  position: absolute;
+  top: 21%;
+  bottom: 0;
+  height: 190%;
+  background: white;
+  width: 80px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+  background: #c2dbea;
+
+}
+
+nav:hover {
+  width: 200px;
+  transition: all 0.5s ease;
+}
+
+.A54 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A55 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A56 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A57 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A58 {
+  margin-top: 30px;
+}
+
+.A59 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  background-color: white;
+  margin: 1.25%;
+}
+
+.A60 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A61 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  background-color:white ;
+  margin: 1.25%;
+}
+
+.A62 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A63 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A64 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A65 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.A66 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A67 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A68 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A69 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.A70 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A71 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A72 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A73 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A74 {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.A75 {
+  height: 400px;
+  width: 22.5%;
+  float: left;
+  margin: 1.25%;
+}
+
+.A76 {
+  border-radius: 10% 10% 0% 0%;
+}
